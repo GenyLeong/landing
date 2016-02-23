@@ -1,0 +1,105 @@
+body{
+	font-family: 'Open Sans';
+	font-size:13px;
+	color:white;
+	}
+
+.nav{
+    font-size: 1.5rem;
+    display: inline-block;
+    float: right;
+}
+
+a{
+	text-decoration: none;
+	padding: 14px;
+}
+
+a:hover{
+	background-color: #E0E0E0;
+	color: white;
+}
+
+.bg-gray{
+	background-color: #808080;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.lightblue-text{
+ 	color: #3EB0F7;
+}
+
+.title-section{
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+/*FORMULARIO*/
+.type-form{
+	background-color: #9A9A9A;
+	border-radius: 21px;
+	padding: 21px;
+}
+
+.text-form{
+	width: 100%;
+     padding: 7px;
+}
+
+.submit-form{
+	background-color: #3EB0F7;
+	color: white;
+	font-size: 1rem;
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding: 7px;
+}
+/* FORM*/
+input:required:invalid {
+ 	border: 1px solid #9A9A9A;
+}
+ 
+input:required:valid {
+	border: 2px solid green;
+}
+
+.reserved{
+	font-size: 1rem;
+}
+
+@media screen
+and (min-width : 400px)    
+and (max-width : 824px)   
+and (orientation : portrait) {
+
+   	.bg-gray{
+		background-color: #808080;
+		padding: 0;
+	}
+
+	.title{
+		width: 100%;
+	    margin-top: 14px;
+	}
+
+	.nav{
+		font-size: 1rem;
+
+	}
+
+	.title-section {
+    margin-top: 35px;
+	}
+
+	.p-xs{
+	margin-top: 28px;
+    margin-bottom: 28px;
+    margin-right: 0px;
+	}
+
+	.type-form{
+	margin-bottom: 35px;
+	}
+ }
